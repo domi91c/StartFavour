@@ -520,3 +520,48 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-16 20:20:30
 
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-16 20:20:30 -0400
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-05-16 21:37:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered devise/registrations/edit.html.erb within layouts/application (472.2ms)
+Completed 200 OK in 1441ms (Views: 707.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-16 21:37:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-16 21:37:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-16 21:37:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-16 21:37:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-16 21:37:11 -0400
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-05-16 22:55:59 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered devise/registrations/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-16 22:56:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-16 22:56:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-16 22:56:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-16 22:56:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-16 22:56:01 -0400
